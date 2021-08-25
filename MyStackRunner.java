@@ -12,9 +12,6 @@ public class MyStackRunner<K> {
 	        myStack.printList();
 	        System.out.println("peek node in stack:");
 	        myStack.peek();
-	        //System.out.println("after the pop opertion");
-	       // myStack.pop();
-	       // System.out.println("after the pop opertion");
-	        //myStack.printList();
+	        
 		}
 }
