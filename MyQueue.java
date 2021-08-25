@@ -20,7 +20,10 @@ public class MyQueue<K> {
 	public void enQueue(INode myNode) {
 		append(myNode);
 	}
-	
+	public void deQueue()
+	    {
+	        this.head=this.head.getNext();
+	    }
 	
 	public void printQueue() {
 		StringBuffer printformat = new StringBuffer("My Nodes: ");
